@@ -67,6 +67,11 @@ input[type="checkbox"] {
 .text__color {
   color: green;
 }
+.text__color2 {
+  color: blue;
+  font-weight: bold;
+}
+
 
 button {
   border: 02px solid lightgrey;
