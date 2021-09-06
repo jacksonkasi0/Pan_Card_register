@@ -65,13 +65,25 @@ input[type="checkbox"] {
 }
 
 .text__color {
-  color: green;
-}
-.text__color2 {
-  color: blue;
-  font-weight: bold;
+  animation: color-change 1.5s infinite;
 }
 
+@keyframes color-change {
+  0% {
+    color: green;
+  }
+  50% {
+    color: blue;
+  }
+  100% {
+    color: green;
+  }
+}
+
+.text__color2 {
+  color: #07008d;
+  font-weight: bold;
+}
 
 button {
   border: 02px solid lightgrey;
