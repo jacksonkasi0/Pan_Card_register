@@ -117,13 +117,14 @@ button {
   font-size: 14px;
   padding: 1px 3px 2px 3px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 600; 
+  transition-duration: 0.3s;
 }
 
 .btn:hover {
   text-decoration: none;
-  padding: 3px 9px 3px 3px;
-  font-size: 18px;
+  transform: scale(1.1);
+  margin-left: 10px;
 }
 
 hr {
